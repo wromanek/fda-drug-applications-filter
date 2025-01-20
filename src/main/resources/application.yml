@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: Drugs Service
+openfda:
+  url: https://api.fda.gov/drug/event.json

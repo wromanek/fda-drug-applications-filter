@@ -1,0 +1,31 @@
+package com.romanek.drugs.fda.model;
+
+public record Drug(
+    String drugcharacterization,
+    String medicinalproduct,
+    String drugauthorizationnumb,
+    String drugdosagetext,
+    String drugdosageform,
+    String actiondrug,
+    String drugadditional,
+    String drugadministrationroute,
+    String drugbatchnumb,
+    String drugcumulativedosagenumb,
+    String drugcumulativedosageunit,
+    String drugenddate,
+    String drugenddateformat,
+    String drugindication,
+    String drugintervaldosagedefinition,
+    String drugintervaldosageunitnumb,
+    String drugrecurreadministration,
+    String drugseparatedosagenumb,
+    String drugstartdate,
+    String drugstartdateformat,
+    String drugstructuredosagenumb,
+    String drugstructuredosageunit,
+    String drugtreatmentduration,
+    String drugtreatmentdurationunit,
+    DrugRecurrence drugrecurrence,
+    OpenFDA openfda,
+    ActiveSubstance activesubstance) {
+}

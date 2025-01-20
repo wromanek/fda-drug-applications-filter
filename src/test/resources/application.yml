@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      database: test
+      port: ${mongodb.container.port:0}
+      host: localhost
+      auto-index-creation: true
